@@ -10,6 +10,7 @@ git clone git@github.com:jleveugle/ovh-angular-http.git
 git clone git@github.com:jleveugle/ovh-angular-sso-auth.git
 git clone git@github.com:jleveugle/ovh-angular-sidebar-menu.git
 git clone git@github.com:jleveugle/ovh-angular-actions-menu.git
+git clone git@github.com:jleveugle/ovh-angular-responsive-popover.git
 
 # Install @ovh-ux/ovh-utils-angular
 
@@ -32,12 +33,21 @@ yarn install
 yarn link
 cd ..
 
+# Install ovh-angular-responsive-popover
+
+cd ovh-angular-responsive-popover
+git checkout refacto
+yarn install
+yarn link
+cd ..
+
 # Install ovh-angular-actions-menu
 
 cd ovh-angular-actions-menu
 git checkout refacto
 yarn install
 yarn link
+yarn link ovh-angular-responsive-popover
 cd ..
 
 # Install ovh-angular-sidebar-menu
