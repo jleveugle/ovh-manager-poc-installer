@@ -9,6 +9,7 @@ git clone git@github.com:jleveugle/ovh-utils-angular.git
 git clone git@github.com:jleveugle/ovh-angular-http.git
 git clone git@github.com:jleveugle/ovh-angular-sso-auth.git
 git clone git@github.com:jleveugle/ovh-angular-sidebar-menu.git
+git clone git@github.com:jleveugle/ovh-angular-actions-menu.git
 
 # Install @ovh-ux/ovh-utils-angular
 
@@ -39,6 +40,14 @@ yarn install
 yarn link
 cd ..
 
+# Install ovh-angular-actions-menu
+
+cd ovh-angular-actions-menu
+git checkout refacto
+yarn install
+yarn link
+cd ..
+
 # Install OVH Manager
 
 cd ovh-manager
@@ -48,6 +57,7 @@ yarn link @ovh-ux/ovh-utils-angular
 yarn link ovh-angular-http
 yarn link ovh-angular-sso-auth
 yarn link ovh-angular-sidebar-menu
+yarn link ovh-angular-actions-menu
 
 cd ..
 
