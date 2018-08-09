@@ -32,20 +32,21 @@ yarn install
 yarn link
 cd ..
 
-# Install ovh-angular-sidebar-menu
-
-cd ovh-angular-sidebar-menu
-git checkout refacto
-yarn install
-yarn link
-cd ..
-
 # Install ovh-angular-actions-menu
 
 cd ovh-angular-actions-menu
 git checkout refacto
 yarn install
 yarn link
+cd ..
+
+# Install ovh-angular-sidebar-menu
+
+cd ovh-angular-sidebar-menu
+git checkout refacto
+yarn install
+yarn link
+yarn link ovh-angular-actions-menu
 cd ..
 
 # Install OVH Manager
