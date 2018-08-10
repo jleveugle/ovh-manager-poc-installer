@@ -4,13 +4,13 @@ rm -rf $FOLDER && mkdir $FOLDER && cd $FOLDER
 
 # Clone projects
 
-git clone git@github.com:jleveugle/ovh-manager.git
-git clone git@github.com:jleveugle/ovh-utils-angular.git
-git clone git@github.com:jleveugle/ovh-angular-http.git
-git clone git@github.com:jleveugle/ovh-angular-sso-auth.git
-git clone git@github.com:jleveugle/ovh-angular-sidebar-menu.git
-git clone git@github.com:jleveugle/ovh-angular-actions-menu.git
-git clone git@github.com:jleveugle/ovh-angular-responsive-popover.git
+git clone https://github.com/jleveugle/ovh-manager.git
+git clone https://github.com/jleveugle/ovh-utils-angular.git
+git clone https://github.com/jleveugle/ovh-angular-http.git
+git clone https://github.com/jleveugle/ovh-angular-sso-auth.git
+git clone https://github.com/jleveugle/ovh-angular-sidebar-menu.git
+git clone https://github.com/jleveugle/ovh-angular-actions-menu.git
+git clone https://github.com/jleveugle/ovh-angular-responsive-popover.git
 
 # Install @ovh-ux/ovh-utils-angular
 
